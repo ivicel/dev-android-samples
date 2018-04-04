@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#a6c"
+    android:padding="16dp"
+    android:gravity="bottom"
+    tools:context="info.ivicel.viewpagetransformer.CardFlipAnimationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        style="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="card back"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/textAppearanceSmall"
+        android:textAllCaps="true"
+        android:textColor="#80ffffff"
+        android:textStyle="bold"
+        android:lineSpacingMultiplier="1.2"
+        android:text="card back description"/>
+
+</LinearLayout>

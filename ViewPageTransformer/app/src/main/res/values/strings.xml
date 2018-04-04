@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ViewPage Transformer</string>
+    <string name="paragraph">Crossfade animations (also know as dissolve) gradually fade out one UI component while simultaneously fading in another. This animation is useful for situations where you want to switch content or views in your app. Crossfades are very subtle and short but offer a fluid transition from one screen to the next. When you don\'t use them, however, transitions often feel abrupt or hurried.</string>
+</resources>

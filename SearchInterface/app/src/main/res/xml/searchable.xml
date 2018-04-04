@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/app_name"
+    android:hint="Google Play"
+    android:imeOptions="actionSearch"
+    android:searchButtonText="Search Google Play"
+    android:searchSettingsDescription="@string/settings_description"
+    android:searchSuggestAuthority="info.ivicel.searchinterface.DictionaryProvider"
+    android:searchSuggestSelection=" ?"
+    android:searchSuggestIntentAction="android.intent.action.VIEW"
+    android:searchSuggestIntentData="content://info.ivicel.searchinterface.DictionaryProvider/dictionary"
+    android:includeInGlobalSearch="true"
+    android:searchSuggestThreshold="1">
+
+</searchable>

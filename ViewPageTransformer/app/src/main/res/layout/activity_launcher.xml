@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:padding="16dp">
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="ViewPager Zoom-out"
+        android:id="@+id/view_pager_zoom_out"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:textSize="16sp"/>
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="ViewPager Depth pager"
+        android:id="@+id/view_pager_depth_pager"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:textSize="16sp"/>
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="CrossingFade Two Views"
+        android:id="@+id/crossing_fade"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:textSize="16sp"/>
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Card Flip"
+        android:id="@+id/card_flip"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Zoom View"
+        android:id="@+id/zoom_view"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Pager Indicator"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:id="@+id/view_pager_indicator"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:textStyle="normal"/>
+
+</LinearLayout>
